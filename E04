@@ -1,0 +1,16 @@
+programa {
+  funcao inicio(){
+
+    real preco, litros, pagamento
+
+    escreva ("Qual o valor do litro da gasolina? ")
+    leia (preco)
+    escreva ("Quantos litros foram vendidos? ")
+    leia (litros)
+    
+
+    pagamento = preco * litros
+
+    escreva("\nO cliente deve pagar ", + pagamento, "reais pela gasolina.")
+  }
+}
