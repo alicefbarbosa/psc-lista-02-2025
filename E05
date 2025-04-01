@@ -1,0 +1,19 @@
+programa {
+  funcao inicio(){
+
+    real alemanha, portugal, italia, pessoas, total
+
+    escreva ("Qual o valor da viagem para a Alemanha? ")
+    leia (alemanha)
+    escreva ("Qual o valor da viagem para Portugal? ")
+    leia (portugal)
+    escreva ("Qual o valor da viagem para a Itália? ")
+    leia (italia)
+    escreva ("Qual a quantidade total de pessoas que visitarão os 3 destinos? ")
+    leia (pessoas)
+
+    total = (alemanha + portugal + italia) * pessoas 
+
+    escreva("\nO valor total da viagem é: " + total)
+  }
+}
